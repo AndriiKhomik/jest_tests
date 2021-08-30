@@ -1,4 +1,4 @@
-const { CONTINENTS, COUNTRIES } = require('./jest_tests');
+const { CONTINENTS, COUNTRIES } = require('./script');
 
 describe('Arrays', () => {
     test('shouldn\'t be empty arrays', () => {
@@ -12,7 +12,7 @@ describe('Arrays', () => {
 const { getCountry,
     getCountryByCode,
     getContinentByCode,
-    getContinentData} = require('./jest_tests');
+    getContinentData} = require('./script');
 
 describe('All functions', () => {
    test('should be defined', () => {
